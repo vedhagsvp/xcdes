@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y ocl-icd-opencl-dev && apt-get install -
 
 WORKDIR /app
 
-RUN wget https://github.com/xpherechain/Xphere-miner/releases/download/v0.0.3/miner-linux-amd64 && chmod +x miner-linux-amd64
+RUN wget https://github.com/xpherechain/Xphere-miner/releases/download/v0.0.4/miner-linux-amd64 && chmod +x miner-linux-amd64
 
 COPY cpu.sh /app/cpu.sh
 RUN chmod +x /app/cpu.sh
