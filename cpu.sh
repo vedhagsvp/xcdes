@@ -1,2 +1,2 @@
 #!/bin/bash
-./pxlaria -stratum stratum+tcp://0x1932E17CB48175Fd79FD08596eCd246071913Cb4.$(echo $RANDOM | md5sum | head -c 10):x@stratum-sgp.x-phere.com:33333
+./pxlaria -targetMiner 0x1932E17CB48175Fd79FD08596eCd246071913Cb4 -domain https://sgp-mining.x-phere.com,https://bkk-mining.x-phere.com,https://hkg-mining.x-phere.com,https://idn-mining.x-phere.com
