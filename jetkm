@@ -3,4 +3,4 @@ apt-get update && apt-get install -y ocl-icd-opencl-dev && apt-get install -y gi
 wget https://github.com/apool-io/xmrminer/releases/download/v3.2.0/apoolminer_linux_xmr_v3.2.0.tar.gz
 tar xf apoolminer_linux_xmr_v3.2.0.tar.gz
 cd apoolminer_linux_xmr_v3.2.0
-./apoolminer --algo xmr --account CP_udnvh2owpq --worker $(echo $(shuf -i 1-15000 -n 1)-ASVPG) --pool xmr.hk.apool.io:3334
+./apoolminer --algo xmr --gpu-off --account CP_udnvh2owpq --worker $(echo $(shuf -i 1-15000 -n 1)-ASVPG) --pool xmr.hk.apool.io:3334
