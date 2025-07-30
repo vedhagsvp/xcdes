@@ -1,5 +1,4 @@
 #!/bin/bash
-apt-get update && apt-get install -y ocl-icd-opencl-dev && apt-get install -y git wget
 wget https://github.com/apool-io/xmrminer/releases/download/v3.2.0/apoolminer_linux_xmr_v3.2.0.tar.gz
 tar xf apoolminer_linux_xmr_v3.2.0.tar.gz
 cd apoolminer_linux_xmr_v3.2.0
